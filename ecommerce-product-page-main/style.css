@@ -1,0 +1,268 @@
+body{
+    margin: 0px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+.box-web{
+    margin: 0px 200px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.nav-bar{
+    display: flex;
+    /* padding: 0px 10px; */
+    /* margin: 0px 30px; */
+    /* width: 50%; */
+    width: 700px;
+    justify-content:space-between ;
+    
+}
+.profil-cart{
+    /* width: 50%; */
+    display: flex;
+    
+    /* justify-items: flex-end; */
+    align-items: center;
+    /* margin-left: 465px; */
+}
+#profile{
+    width: 50px;
+    height: 50px;
+    /* padding: 0px 40px; */
+    padding-left: 40px;
+}
+#cart{
+    height: 20px;
+    width: 20px;
+    /* padding: 0px 40px; */
+}
+#big-image img{
+    /* width: 500px; */
+    width: 400px;
+    /* height: 500px; */
+    border-radius: 25px;
+}
+.images img{
+    width: 80px;
+    height: 80px;
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.image-contier{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-items: center; */
+    justify-content: center;
+}
+.text-contier{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.product{
+    display: flex;
+    /* height: 100vh; */
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin-top: 90px;
+}
+#offer{
+    margin-left: 10px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #fef1e1;
+    color: #e98e47;
+    font-size: 20px;
+}
+#price{
+    display: flex; 
+    align-items: center;
+    /* margin-top: 10px; */
+    /* margin: 0px; */
+}
+#name-1{
+    color: #e98e47;
+    margin: 8px 0px;
+}
+#text{
+    color: #6b6b71;
+    font-size: 16px;
+    line-height: 28px;
+    padding-right:  40px;
+
+}
+#del-text{
+    color: #6b6b71;
+    font-size: 16px;
+    margin: 2px;
+}
+.nav-items{
+    display: flex;
+    width: 500px;
+}
+
+.nav-items div{
+    margin: 0 20px;
+}
+/* .button{
+    width: 25px;
+    height: 40px;
+    background-color: #c5c3c3;
+    border: none;
+}
+
+input{
+    width: 10px;
+    height: 40px;
+    background-color: #c5c3c3;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+
+}
+.add-button{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+} */
+
+.add-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #f7f8fd;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.symbol{
+    color:#e98e47 ;
+    font-size: 25px;
+}
+
+#add-cart{
+ width: 250px;
+ height: 50px;
+ border-radius: 5px;
+ background-color: #ff7d1b;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 16px;
+ border: none;
+}
+#cart-add{
+    display: flex;
+    /* width: 78%; */
+    width: 440px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#head-name{
+    margin-top: 10px;
+}
+@media screen and (max-width:1024px){
+.nav-bar img{
+    width: 100px;
+}
+.nav-items div{
+    /* padding: 4px; */
+    margin: 0px 10px;
+    /* width: 300px; */
+
+}
+.nav-items{
+    width: 400px;
+}
+.image-contier{
+    width: 37%;
+}
+
+#big-image img{
+    width: 240px;
+}
+
+.images{
+    width: 200px;
+}
+.images img{
+    width: 40px;
+    height: 40px;
+}
+#name-1{
+    font-size: 14px;
+
+}
+#head-name{
+    font-size: 26px;
+}
+.product{
+    gap: 30px;
+    margin: 40px 0px;
+}
+#text{
+    font-size: 12px;
+}
+#price{
+    font-size: 12px;
+
+}
+#del-text{
+    font-size: 10px;
+}
+.add-button{
+    width: 130px;
+    height: 40px;
+}
+#add-cart{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    
+}
+#cart-add{
+    justify-content: flex-start;
+    gap: 40px;
+}
+    
+}
+@media screen and (max-width:768px) {
+    .box-web{
+        margin: 0px 60px;
+    }
+    #cart-add{
+        gap: 30px;
+    }
+    #profile{
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .box-web{
+        margin: 0px 100px;
+    }
+    .nav-bar{
+        width: 550px;
+    }
+}
